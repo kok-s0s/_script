@@ -34,4 +34,4 @@ chmod a+x myScript.sh
 
 ## 多敲就对了
 
-[echo](./echo.sh)
+[echo](./script/echo.sh)
