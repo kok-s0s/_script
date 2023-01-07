@@ -31,3 +31,7 @@ chmod 755 myScript.sh
 chmod a+x myScript.sh
 ./myScript.sh
 ```
+
+## 多敲就对了
+
+[echo](./echo.sh)
