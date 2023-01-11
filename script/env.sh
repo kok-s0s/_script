@@ -1,4 +1,4 @@
-#！/bin/bash
+#!/bin/bash
 
 nickname="kok-s0s"
 

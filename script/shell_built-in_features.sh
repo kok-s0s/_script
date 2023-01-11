@@ -1,4 +1,4 @@
-#！/bin/bash
+#!/bin/bash
 
 var=12345678901234567890
 echo ${#var}
