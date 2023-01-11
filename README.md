@@ -34,4 +34,6 @@ chmod a+x myScript.sh
 
 ## 多敲就对了
 
-[echo](./script/echo.sh)
+[echo.sh](./script/echo.sh)
+
+[env](./chapter/env.md)
