@@ -39,3 +39,5 @@ chmod a+x myScript.sh
 [env](./chapter/env.md)
 
 [shell_built-in_features](./chapter/shell_built-in_features.md)
+
+[math_calculation](./chapter/math_calculation.md)
