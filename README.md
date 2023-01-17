@@ -42,6 +42,8 @@ chmod a+x myScript.sh
 
 [math_calculation](./chapter/math_calculation.md)
 
+[File descriptors and Redirect](./chapter/file_descriptors_and_redirect.md)
+
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
