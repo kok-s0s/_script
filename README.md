@@ -34,6 +34,8 @@ chmod a+x myScript.sh
 
 ## 多敲就对了
 
+> 可以使用 [delete_everything.sh](/script/delete_everything.sh) 脚本来删除因执行测试脚本而产生的文件。
+
 [echo.sh](./script/echo.sh)
 
 [env](./chapter/env.md)
