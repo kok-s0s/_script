@@ -57,3 +57,5 @@ chmod a+x myScript.sh
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
+
+- [How to Debug a Shell Script](https://stackpointer.io/unix/how-to-debug-shell-script/345/#:~:text=How%20to%20Debug%20a%20Shell%20Script%201%20Shell,3%20Custom%20Function%20to%20Debug%20Shell%20Script%20)
