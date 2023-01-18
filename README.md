@@ -48,6 +48,8 @@ chmod a+x myScript.sh
 
 [Array and Associative array](./script/array_and_associative_array.sh)
 
+[alias](./script/alias.sh)
+
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
