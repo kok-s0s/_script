@@ -52,6 +52,8 @@ chmod a+x myScript.sh
 
 [get Terminal Info](./script/get_terminal_info.sh)
 
+[date](./chapter/date.md)
+
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
