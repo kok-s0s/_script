@@ -54,6 +54,8 @@ chmod a+x myScript.sh
 
 [date](./chapter/date.md)
 
+[function and param](./script/func_param.sh)
+
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
