@@ -70,6 +70,8 @@ chmod a+x myScript.sh
 
 [cat](./chapter/cat.md)
 
+[scriptplay](./chapter/scriptplay.md)
+
 ## ta 人的文章
 
 - [初学者应该知道的 Linux 网络命令](https://www.freecodecamp.org/chinese/news/linux-networking-commands-for-beginners/) --- [实践](./script/web.sh)
