@@ -1,3 +1,5 @@
+**简单命令的组合是一门艺术，实践得越多，收益就越大。**
+
 # \_script
 
 > shebang 这个词其实是两个字符名称（sharp-bang）的简写。在 Unix 的行话里，用 sharp 或 bash（有时候是 mesh）来称呼字符#，用 bang 来称呼字符!。所以 shebang 就是指#!，即“井号感叹号”（#!）。这个字符组合在 Unix 的脚本中有着特殊的意义，它是一个“魔法”字符组合，用来告诉系统这个脚本需要什么解释器来执行。
@@ -65,6 +67,8 @@ chmod a+x myScript.sh
 [Field Separator and Iterator](./chapter/field_separator_and_iterator.md)
 
 [Compare and Test](./chapter/compare_and_test.md)
+
+[cat](./chapter/cat.md)
 
 ## ta 人的文章
 
