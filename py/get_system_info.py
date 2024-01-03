@@ -1,5 +1,5 @@
 # Created by: kok-s0s
-# Last Modified at: Wed Dec 27 14:10:40 2023
+# Last Modified at: Wed Dec 27 14:10:41 2023
 # File Name: get_system_info.py
 
 import platform

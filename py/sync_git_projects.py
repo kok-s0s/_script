@@ -1,3 +1,7 @@
+# Created by: kok-s0s
+# Last Modified at: Wed Dec 27 14:39:38 2023
+# File Name: sync_git_projects.py
+
 import os
 import subprocess
 import sys

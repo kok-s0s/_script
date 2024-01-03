@@ -1,3 +1,7 @@
+# Created by: kok-s0s
+# Last Modified at: Thu Dec 28 18:46:16 2023
+# File Name: bulk_rename.py
+
 import os
 import sys
 

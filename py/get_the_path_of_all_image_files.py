@@ -1,5 +1,8 @@
+# Created by: kok-s0s
+# Last Modified at: Wed Dec 27 14:23:43 2023
+# File Name: get_the_path_of_all_image_files.py
+
 import os
-import glob
 import sys
 
 
