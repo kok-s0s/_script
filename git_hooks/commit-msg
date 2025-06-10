@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Define allowed commit types
+allowed_types="feat|fix|docs|style|refactor|test|chore"
+
+# Get the commit message file passed by Git
+commit_msg_file="$1"
+commit_msg=$(head -n1 "$commit_msg_file")
+
+# Define the regex pattern for conventional commits
+pattern="^($allowed_types): .+"
+
+# Validate the commit message
+if ! echo "$commit_msg" | grep -qE "$pattern"; then
+  echo "❌ Invalid commit message format!"
+  echo
+  echo "Your commit message should follow the Conventional Commits specification:"
+  echo "  <type>: <subject>"
+  echo
+  echo "Examples:"
+  echo "  feat: add login feature"
+  echo "  fix: resolve crash on startup"
+  echo "  docs: update README"
+  echo
+  echo "Allowed types are: $allowed_types"
+  echo
+  echo "More info: https://www.conventionalcommits.org/"
+  exit 1
+fi
+
+# Success
+exit 0

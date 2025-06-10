@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Ensure clang-format is available
+command -v clang-format >/dev/null 2>&1 || {
+  echo "❌ clang-format not found. Please install it before committing."
+  exit 1
+}
+
+# Get staged C/C++ source files
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(cpp|cc|c\+\+|cxx|hpp|h|hh)$')
+
+if [[ -z "$FILES" ]]; then
+  echo "✅ No C/C++ files to check. Skipping format check."
+  exit 0
+fi
+
+TMP_DIR=$(mktemp -d)
+FAILED=0
+
+for FILE in $FILES; do
+  if [ ! -f "$FILE" ]; then
+    continue
+  fi
+
+  # Format file to temp
+  clang-format "$FILE" > "$TMP_DIR/$(basename "$FILE")"
+
+  # Compare original with formatted
+  if ! diff -q "$FILE" "$TMP_DIR/$(basename "$FILE")" >/dev/null; then
+    echo "❌ Code style violation in: $FILE"
+    FAILED=1
+  fi
+done
+
+rm -rf "$TMP_DIR"
+
+if [ $FAILED -ne 0 ]; then
+  echo ""
+  echo "💡 Please run the following command(s) to fix formatting issues:"
+  echo "  clang-format -i <filename>"
+  exit 1
+fi
+
+echo "✅ All C/C++ files passed clang-format check."
+exit 0
